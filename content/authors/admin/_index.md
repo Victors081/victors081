@@ -1,6 +1,5 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include Applied Econometrics, Time series and Micro - Macroeconomics.
 education:
   courses:
   - course: Msc in Economics (forthcoming)
@@ -56,7 +55,7 @@ superuser: true
 title: null
 ---
 
-In everything I do, I believe in telling transformative stories, in rethinking things. To do this, I use data analysis that is robust, efficient and easy for others to understand. In other words, I make people understand their context better and make better decisions.
+In everything I do, I believe in telling stories. To do this, I use robust, efficient and easy for others to understand data analysis. In other words, I make people understand better their context and make better decisions.
 
 I am very interested in economic research, business intelligence and data analytics for decision making. In my free time I enjoy building Rubik's cubes, reading, meditating, drinking coffee and programming.
 
