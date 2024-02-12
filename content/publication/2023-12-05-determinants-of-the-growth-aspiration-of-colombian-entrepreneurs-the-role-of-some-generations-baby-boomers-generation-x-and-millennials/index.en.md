@@ -3,10 +3,6 @@ abstract: "Este artículo tiene como objetivo estimar la probabilidad de las asp
 
 title: 'Determinants of the growth aspiration of Colombian entrepreneurs: the Role
   of Some Generations, Baby Boomers, Generation X and Millennials'
-authors:
-- Carlos Giovanni Gonzales
-- Victor Manuel Sarmiento
-- Jhonnier Arboleda Cuesta
 date: '2023-12-05'
 slug: determinants-of-the-growth-aspiration-of-colombian-entrepreneurs-the-role-of-some-generations-baby-boomers-generation-x-and-millennials
 categories:
@@ -17,21 +13,15 @@ tags:
   - Academic
 subtitle: ''
 summary: ''
-authors: []
+authors: [González, C. G., Sarmiento , V. M. ., and Arboleda, J. M.]
 lastmod: '2023-12-05T20:06:05-05:00'
-publication_types:
+publication_types: 
 - article-journal
 publication: '*Revista de Metodos Cuantitativos para la Economia y la Empresa*'
-featured: no
+featured: false
 image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
+  preview_only:  false 
 projects: []
 url_pdf: "https://www.upo.es/revistas/index.php/RevMetCuant/article/view/6893"
 ---
 
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

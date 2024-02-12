@@ -45,12 +45,12 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Victor. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© {year}. Victor Sarmiento.'
+   # license:
+   #   enable: true
+   #   allow_derivatives: false
+   #   share_alike: true
+   #   allow_commercial: false
 
 # Localization
 
@@ -66,7 +66,7 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
@@ -114,3 +114,6 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
+
+citation_style: APA

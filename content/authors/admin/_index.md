@@ -25,9 +25,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:vmsarmiento@icesi.edu.co
-- display:
-    header: true
-  icon: twitter
+- icon: twitter
   icon_pack: fab
   label: Follow me on Twitter
   link: https://twitter.com/crisalida081
@@ -57,6 +55,6 @@ title: null
 
 In everything I do, I believe in telling stories. To do this, I use robust, efficient and easy for others to understand data analysis. In other words, I make people understand better their context and make better decisions.
 
-I am very interested in economic research, business intelligence and data analytics for decision making. In my free time I enjoy building Rubik's cubes, reading, meditating, drinking coffee and programming.
+I am very interested in economic research, business analytics and data analytics for decision making. In my free time I enjoy solving Rubik's cubes, reading, meditating, drinking coffee and programming.
 
 {style="text-align: justify;"}

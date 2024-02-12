@@ -36,53 +36,66 @@ sections:
       gradient_end: '#1976d2'
       gradient_start: '#004ba0'
       text_color_light: true
+
 - block: about.biography
   content:
     title: Welcome
     username: admin
   id: about
 
-- block: collection
+- block: accomplishments
   content:
-    count: 5
-    filters:
-      author: ""
-      category: ""
-      exclude_featured: false
-      exclude_future: false
-      exclude_past: false
-      folders:
-      - post
-      publication_type: ""
-      tag: ""
-    offset: 0
-    order: desc
-    subtitle: ""
-    text: ""
-    title: Recent Posts
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Grants and Awards'
+      subtitle:
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - date_end: ''
+          date_start: '2023-10-31'
+          description: ''
+          organization: 'DAAD Deutscher Akademischer Austauschdienst'
+          title: Scholarship Studienreisen für Gruppen von ausländischen Studierenden in Deutschland
+          url: ''
+        - date_end: ''
+          date_start: '2023-01-01'
+          description: ''
+          organization: 'Universidad Icesi'
+          title: Master’s degree Scholarship
+          url: ''
+        - date_end: ''
+          date_start: '2022-08-01'
+          description: ''
+          organization: 'Universidad Icesi'
+          title: Scholarship tuition fees
+          url: ''
+        - date_end: ''
+          date_start: '2022-07-01'
+          description: ''
+          organization: 'National Economics Academic Competition'
+          title: Competitor
+          url: ''
+        - date_end: ''
+          date_start: '2021-05-01'
+          description: ''
+          organization: 'Economic and Political Developments in China and Colombia'
+          title: Icesi ‑ Hong Kong short‑term virtual exchange program
+          url: ''
+        - date_end: ''
+          date_start: '2017-11-01'
+          description: ''
+          organization: 'Ser Pilo Paga 4.0'
+          title: Undergraduate Scholarship
+          url: ''
   design:
-    columns: "2"
-    view: compact
-  id: posts
-- block: portfolio
-  content:
-    buttons:
-    - name: All
-      tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
-    default_button_index: 0
-    filters:
-      folders:
-      - project
-    title: Projects
-  design:
-    columns: "1"
-    flip_alt_rows: false
-    view: showcase
-  id: projects
+      columns: '2'
+
+
 - block: markdown
   content:
     subtitle: ""
@@ -97,29 +110,43 @@ sections:
       exclude_featured: true
       folders:
       - publication
+      tag: ''
+      category: ''
+      publication_type: ''
+      author: ''
+      featured_only: false
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: true
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
+      offset: 0
+      # Field to sort by, such as Date or Title
+      sort_by: 'Date'
+      sort_ascending: false
     text: |-
       {{% callout note %}}
       Quickly discover relevant content by [filtering publications](./publication/).
       {{% /callout %}}
+
+      Alonso, Julio C, Sarmiento, Victor M (2023). [Retorno de la ocupación a los niveles de la prepandemia](./publication/retorno-de-la-ocupaci-n-a-los-niveles-de-la-prepandemia/). in Actualización del sistema de cuentas económicas distritales de Santiago de Cali 2015-2022.
     title: Recent Publications
   design:
     columns: "2"
     view: citation
+  id: featured
 - block: collection
   content:
     filters:
       folders:
       - event
-    title: Recent & Upcoming Talks
+    title: Recent Talks
   design:
     columns: "2"
     view: compact
   id: talks
-- block: tag_cloud
-  content:
-    title: Popular Topics
-  design:
-    columns: "2"
 - block: contact
   content:
     email: vmsarmiento@icesi.edu.co

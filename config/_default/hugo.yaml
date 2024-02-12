@@ -5,7 +5,7 @@ theme: "theme-academic-cv"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Victor Manuel Sarmiento # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://victors081.netlify.app/' # Website URL
 
 ############################
 ## LANGUAGE
